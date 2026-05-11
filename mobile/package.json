@@ -1,6 +1,8 @@
 {
-  "name": "mobile",
+  "name": "poverty-hotspot-mobile",
+  "description": "NGO Field App for Poverty Hotspot Identification System",
   "version": "1.0.0",
+  "author": "Haasini Reddy",
   "main": "index.js",
   "scripts": {
     "start": "expo start",

@@ -1,7 +1,9 @@
 {
-  "name": "frontend",
+  "name": "poverty-hotspot-frontend",
+  "description": "React Dashboard for Poverty Hotspot Identification System",
+  "version": "1.0.0",
+  "author": "Haasini Reddy",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

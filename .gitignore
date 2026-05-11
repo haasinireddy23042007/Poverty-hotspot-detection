@@ -3,6 +3,7 @@ backend/venv/
 backend/__pycache__/
 backend/ml/__pycache__/
 backend/ml/*.pkl
+backend/ml/*.joblib
 __pycache__/
 *.py[cod]
 *.pyo
@@ -16,6 +17,8 @@ build/
 .env
 .env.*
 !.env.example
+secrets.js
+!secrets.example.js
 
 # ── Node / Frontend ───────────────────────────────────────────────────────────
 frontend/node_modules/
@@ -37,15 +40,16 @@ mobile/dist/
 mobile/web-build/
 mobile/.metro-health-check*
 mobile/*.orig.*
-mobile/src/config/secrets.js
 mobile/ios/
 mobile/android/
+mobile/*.jks
+mobile/*.p8
+mobile/*.p12
+mobile/*.key
+mobile/*.mobileprovision
 
 # ── Large / generated data files ──────────────────────────────────────────────
-# secc_cons_rural_shrid.csv is ~56 MB – too large for GitHub
 data/secc_cons_rural_shrid.csv
-
-# Auto-generated code dumps (not source)
 code_dump.md
 code_dump.txt
 
