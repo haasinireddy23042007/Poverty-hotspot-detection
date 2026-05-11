@@ -1,0 +1,65 @@
+# ── Python / Backend ──────────────────────────────────────────────────────────
+backend/venv/
+backend/__pycache__/
+backend/ml/__pycache__/
+backend/ml/*.pkl
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+*.so
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── Mobile / Expo ─────────────────────────────────────────────────────────────
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+mobile/.metro-health-check*
+mobile/*.orig.*
+mobile/src/config/secrets.js
+mobile/ios/
+mobile/android/
+
+# ── Large / generated data files ──────────────────────────────────────────────
+# secc_cons_rural_shrid.csv is ~56 MB – too large for GitHub
+data/secc_cons_rural_shrid.csv
+
+# Auto-generated code dumps (not source)
+code_dump.md
+code_dump.txt
+
+# ── Editor & OS ───────────────────────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── Gemini / AI tool internals ────────────────────────────────────────────────
+.gemini/
